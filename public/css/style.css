@@ -1,0 +1,243 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background: #F3F5FC;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.input-texto{
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    left: 150px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: 0px solid;
+    /* or 48px */
+    background: #F3F5FC;
+    color: #0A3871;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#div-alertainfo{
+    width: 205px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    position: absolute;
+    left: 148px;
+    top: 550px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 148px;
+    top: 600px;
+}
+
+.encriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 8px;
+
+    width: 300px;
+    height: 40px;
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.encriptar:hover{
+    background: #D8DFE8;
+    transform: scale(1);
+}
+
+.encriptar p{
+    width: 280px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.desencriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 8px;
+
+    width: 300px;
+    height: 40px;
+
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.desencriptar:hover{
+    background: #1b4982;
+    transform: scale(1);
+}
+
+.desencriptar p{
+    width: 280px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0A3871;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mensaje-box{
+    position: absolute;
+    width: 400px;
+    height: 630px;
+    left: 900px;
+    top: 40px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.copiar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 360px;
+    height: 67px;
+    left: 20px;
+    top: 525px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.copiar:hover{
+    background: #1b4982;
+    transform: scale(1);
+}
+
+.copiar p{
+    width: 288px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0A3871;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mensaje{
+    position: absolute;
+    width: 336px;
+    height: 470px;
+    left: 26px;
+    top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    border: 0px solid;
+    
+
+    color: #495057;
+    font-family: 'Montserrat', sans-serif;
+}
+
